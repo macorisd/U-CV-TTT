@@ -1,0 +1,32 @@
+1. INSTALAR PYTHON
+
+- ir a python.org/downloads/ 
+- descargar e instalar la última versión de python
+
+2. INSTALAR DROIDCAM EN UN DISPOSITIVO MÓVIL
+
+Instalar en Android: https://play.google.com/store/apps/details?id=com.dev47apps.droidcam&hl=es&gl=US&pli=1
+
+3. INSTALAR PAQUETES NECESARIOS PARA LA EJECUCIÓN
+
+- abrir la carpeta del proyecto, llamada 'U-CV-TTT'
+- clic derecho en un espacio de la carpeta
+- seleccionar 'Abrir en terminal'
+- 2 opciones para instalar los paquetes:
+	- OPCIÓN 1: abrir el archivo 'instalar_paquetes.bat', ubicado en la carpeta 'Setup'
+	- OPCIÓN 2: seguir los siguientes pasos:
+
+3.1. INSTALAR CV2
+
+- en la ventana de comandos, escribir 'pip install opencv-python'
+
+3.2. INSTALAR SHAPELY
+
+- en la ventana de comandos, escribir 'pip install shapely'
+
+3.3. INSTALAR MATPLOTLIB
+
+- en la ventana de comandos, escribir 'pip install matplotlib'
+
+
+4. ¡Ya puedes disfrutar de Ultimate CV TicTacToe! Abre el archivo 'U-CV-TTT.pyw' para una ejecución directa, o el archivo 'U-CV-TTT.py' para ver el código python del programa.

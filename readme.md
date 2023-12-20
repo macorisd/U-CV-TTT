@@ -25,7 +25,7 @@
     # Puede entrenar su propio clasificador de simbolos con el archivo 'train_classifier.py'.
     # Puede probar el clasificador de simbolos con el archivo 'test_classifier.py'.
 
-### Made with <3 by Macoris Decena Gimenez
+### Made with <3 by Macorís Decena Giménez
 ### https://github.com/macorisd
 
 ### Para reportar bugs y errores: macorisd@gmail.com

@@ -1,31 +1,81 @@
-# Proyecto 'Ultimate Computer Vision TicTacToe'
-### Objetivo: simular un jugador de tres en raya, cuyos ojos son la camara de un dispositivo movil.
-### Inicio: 29/11/2023
+# Ultimate Computer Vision TicTacToe (U-CV-TTT)
 
-### Instalacion:
-    # Seguir la guia de instalacion detallada en 'install.txt'.    
+## Overview
+**Ultimate Computer Vision TicTacToe** is a Python project that simulates a TicTacToe player whose "eyes" are the camera of a mobile device. The application uses Python and OpenCV to recognize and interact with the TicTacToe board.
 
-### Modos de juego: Facil, Medio, Pesadilla.
+## Key Features
+- Play against an AI with three difficulty modes: Easy, Medium, and Nightmare.
+- Real-time board recognition via a mobile device camera.
+- Train and test your own symbol classifier for custom configurations.
 
-### Procedimiento:
-    # Conectar el dispositivo movil y el ordenador a la misma red Wi-Fi (o conectarse desde el ordenador a los datos moviles del telefono).
-    # Abrir DroidCam en el dispositivo movil.
-    # Ejecutar este archivo, o el archivo 'U-CV-TTT.pyw'
-    # Hacer clic en el botón 'IP/Port'
-    # Introducir la IP y el puerto proporcionados por DroidCam en la ventana de 'IP/Port'.
-    # Seleccionar un modo de juego.
-    # Capturar imagenes con la barra espaciadora. Salir con 'q'.
+## Requirements
+- Python (latest version recommended)
+- DroidCam installed on your mobile device
 
-### Tips:
-    # Intentar usar folios blancos y rotulador negro.
-    # Cuadrar el tablero de tres en raya aproximadamente en la cuadricula proporcionada, pero no acercarlo demasiado.
-    # Puede dibujar o no dibujar los movimientos del bot en el papel. Es indiferente.
+## Installation
+Follow these steps to set up the project:
 
-### Avanzado:
-    # Puede entrenar su propio clasificador de simbolos con el archivo 'train_classifier.py'.
-    # Puede probar el clasificador de simbolos con el archivo 'test_classifier.py'.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/macorisd/U-CV-TTT.git
+   ```
 
-### Made with <3 by Macorís Decena Giménez
-### https://github.com/macorisd
+2. **Install Python**
+   - Go to [python.org/downloads](https://www.python.org/downloads/).
+   - Download and install the latest version of Python.
 
-### Para reportar bugs y errores: macorisd@gmail.com
+3. **Install DroidCam on a Mobile Device**
+   - For Android: [Download from Google Play Store](https://play.google.com/store/apps/details?id=com.dev47apps.droidcam&hl=es&gl=US&pli=1).
+
+4. **Install Required Python Packages**
+   - Open the project folder, named `U-CV-TTT`.
+   - Right-click in the folder and select **Open in Terminal**.
+   - Install dependencies using one of the following methods:
+
+     **Option 1:** Run the batch file `install_packages.bat` located in the `Setup` folder.
+
+     **Option 2:** Install packages manually by running the following commands:
+     ```bash
+     pip install opencv-python
+     pip install shapely
+     pip install matplotlib
+     ```
+
+5. **You're ready to play!**
+   - Open the file `U-CV-TTT.pyw` for direct execution, or run `U-CV-TTT.py` to view the Python code.
+
+## How to Play
+
+1. Connect both your mobile device and computer to the same Wi-Fi network (or tether your computer to your mobile data).
+2. Launch DroidCam on your mobile device.
+3. Run the `U-CV-TTT.pyw` file.
+4. Click on the **IP/Port** button in the application window.
+5. Enter the IP and port provided by DroidCam into the corresponding fields.
+6. Select a difficulty mode: Easy, Medium, or Nightmare.
+7. Capture board images by pressing the spacebar. Exit the application by pressing `q`.
+
+## Tips for Optimal Performance
+- Use plain white paper and a black marker for better recognition.
+- Align the TicTacToe board approximately within the provided grid, but avoid placing it too close to the camera.
+- You may choose to draw or not draw the bot's moves on the paper; both approaches work.
+
+## Advanced Features
+
+1. **Train Your Own Symbol Classifier**
+   - Use the `train_classifier.py` script to train a custom symbol classifier.
+
+2. **Test the Symbol Classifier**
+   - Use the `test_classifier.py` script to evaluate your classifier's performance.
+
+## Repository Structure
+- `U-CV-TTT.pyw`: Main executable file.
+- `train_classifier.py`: Script for training a custom classifier.
+- `test_classifier.py`: Script for testing the custom classifier.
+- `Setup/install_packages.bat`: Batch file to install dependencies automatically.
+
+## Author
+Made with ❤️ by **Macorís Decena Giménez**.  
+[GitHub Profile](https://github.com/macorisd)
+
+## Reporting Issues
+If you encounter any bugs or issues, please feel free to contact me at **macorisd@gmail.com**.

@@ -67,12 +67,6 @@ Follow these steps to set up the project:
 2. **Test the Symbol Classifier**
    - Use the `test_classifier.py` script to evaluate your classifier's performance.
 
-## Repository Structure
-- `U-CV-TTT.pyw`: Main executable file.
-- `train_classifier.py`: Script for training a custom classifier.
-- `test_classifier.py`: Script for testing the custom classifier.
-- `Setup/install_packages.bat`: Batch file to install dependencies automatically.
-
 ## Author
 Made with ❤️ by **Macorís Decena Giménez**.  
 [GitHub Profile](https://github.com/macorisd)
